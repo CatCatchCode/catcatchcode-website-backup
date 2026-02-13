@@ -40,7 +40,23 @@ CatCatchCode is a comprehensive educational platform designed to provide student
 
 ---
 
-## 🚀 Features
+## � Connect With Us
+
+Stay updated with the latest resources and community updates!
+
+- **Website**: [catcatchcode.online](https://catcatchcode.online/)
+- **YouTube (Team Lead - Abhijay Shah)**: [Abhijay Shah YouTube](https://www.youtube.com/channel/UCX8i_v1eL9VuLWG1fKwEXhw)
+- **YouTube (Official)**: [CatCatchCode Official](https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg)
+- **Instagram**: [@cat_catch_code](https://www.instagram.com/cat_catch_code/)
+- **LinkedIn**: [CatCatchCode](https://www.linkedin.com/in/catcatchcode/)
+- **Twitter/X**: [@catcatchcode](https://x.com/catcatchcode)
+- **GitHub**: [catcatchcode](https://github.com/catcatchcode)
+- **Facebook**: [CatCatchCode](https://www.facebook.com/catcatcatchcode) | [Official Profile](https://www.facebook.com/profile.php?id=61584628988988)
+- **Reddit**: [u/Super_Cartoonist1246](https://www.reddit.com/user/Super_Cartoonist1246/)
+
+---
+
+## �🚀 Features
 
 ### For Students
 - **Course Catalog**: Browse and search through various technical courses (DSA, MERN, Flutter, etc.).
