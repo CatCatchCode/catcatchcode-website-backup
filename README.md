@@ -2,9 +2,25 @@
 
 CatCatchCode is a comprehensive educational platform designed to provide students and developers with high-quality resources, including handwritten notes, video tutorials, AI resources, and course materials. The platform features a robust administrative panel for managing content and a user dashboard for tracking learning progress.
 
+## � Connect With Us
+
+Stay updated with the latest resources and community updates!
+
+- **Website**: [catcatchcode.online](https://catcatchcode.online/)
+- **YouTube (Team Lead - Abhijay Shah)**: [Abhijay Shah YouTube](https://www.youtube.com/channel/UCX8i_v1eL9VuLWG1fKwEXhw)
+- **YouTube (Official)**: [CatCatchCode Official](https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg)
+- **Instagram**: [@cat_catch_code](https://www.instagram.com/cat_catch_code/)
+- **LinkedIn**: [CatCatchCode](https://www.linkedin.com/in/catcatchcode/)
+- **Twitter/X**: [@catcatchcode](https://x.com/catcatchcode)
+- **GitHub**: [catcatchcode](https://github.com/catcatchcode)
+- **Facebook**: [CatCatchCode](https://www.facebook.com/catcatcatchcode) | [Official Profile](https://www.facebook.com/profile.php?id=61584628988988)
+- **Reddit**: [u/Super_Cartoonist1246](https://www.reddit.com/user/Super_Cartoonist1246/)
+
+---
+
 ## 📺 Project Demo & Workflow
-- **Live Demo**: [Click here to view the live site](https://your-demo-link.com) *(Update this link)*
-- **Video Walkthrough**: [Watch on YouTube](https://your-youtube-link.com) *(Update this link)*
+- **Live Demo**: [Click here to view the live site](https://catcatchcode.online/)
+- **Video Walkthrough**: [Watch on YouTube](https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg)
 
 ---
 
@@ -40,23 +56,7 @@ CatCatchCode is a comprehensive educational platform designed to provide student
 
 ---
 
-## � Connect With Us
-
-Stay updated with the latest resources and community updates!
-
-- **Website**: [catcatchcode.online](https://catcatchcode.online/)
-- **YouTube (Team Lead - Abhijay Shah)**: [Abhijay Shah YouTube](https://www.youtube.com/channel/UCX8i_v1eL9VuLWG1fKwEXhw)
-- **YouTube (Official)**: [CatCatchCode Official](https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg)
-- **Instagram**: [@cat_catch_code](https://www.instagram.com/cat_catch_code/)
-- **LinkedIn**: [CatCatchCode](https://www.linkedin.com/in/catcatchcode/)
-- **Twitter/X**: [@catcatchcode](https://x.com/catcatchcode)
-- **GitHub**: [catcatchcode](https://github.com/catcatchcode)
-- **Facebook**: [CatCatchCode](https://www.facebook.com/catcatcatchcode) | [Official Profile](https://www.facebook.com/profile.php?id=61584628988988)
-- **Reddit**: [u/Super_Cartoonist1246](https://www.reddit.com/user/Super_Cartoonist1246/)
-
----
-
-## �🚀 Features
+## 🚀 Features
 
 ### For Students
 - **Course Catalog**: Browse and search through various technical courses (DSA, MERN, Flutter, etc.).
