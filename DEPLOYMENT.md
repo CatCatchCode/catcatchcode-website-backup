@@ -50,10 +50,13 @@ The frontend is built with Vite and includes a `vercel.json` to handle client-si
    - **Framework Preset**: `Vite`
    - **Root Directory**: `frontend`
    - **Build Command**: `npm run build`
+   - **Install Command**: `npm install --legacy-peer-deps` (Required for React 19 compatibility)
    - **Output Directory**: `dist`
 5. Add the **Environment Variables**:
    - `VITE_API_URL`: Your deployed Backend URL (e.g., `https://catcatchcode-backend.onrender.com/api`)
 6. Click **Deploy**.
+
+> **Note**: I have added a `.npmrc` file in the `frontend/` directory with `legacy-peer-deps=true`. This should automatically handle the dependency conflict in Vercel. If it still fails, manually set the **Install Command** to `npm install --legacy-peer-deps` in the Vercel project settings.
 
 ---
 
