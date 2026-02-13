@@ -4,6 +4,7 @@ import CourseCard from '../components/CourseCard';
 import Loader from '../components/Loader';
 import { useUser } from '../context/UserContext';
 import { Link } from 'react-router-dom';
+import { BookOpen, ArrowRight } from 'lucide-react';
 
 const Dashboard = () => {
   const { user } = useUser();
@@ -13,22 +14,10 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchPurchasedCourses = async () => {
       try {
-        // In a real app, we might have a dedicated endpoint for this
-        // or populate it on the user profile.
-        // For now, we rely on the user profile data but we might need to fetch full course details
-        // if the user object only has IDs.
-        
-        // Let's re-fetch profile to be sure we have latest courses
         const { data } = await api.get('/auth/profile');
-        
-        // Assuming the backend populates purchasedCourses, or we fetch them manually
-        // The current backend user controller returns purchasedCourses IDs.
-        // We need to fetch the course details for these IDs.
-        
         const coursePromises = data.purchasedCourses.map(id => api.get(`/courses/${id}`));
         const coursesResponses = await Promise.all(coursePromises);
         setPurchasedCourses(coursesResponses.map(res => res.data));
-
       } catch (error) {
         console.error('Error fetching dashboard:', error);
       } finally {
@@ -45,10 +34,29 @@ const Dashboard = () => {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold text-gray-900">My Learning</h1>
+      {/* Personal Study Space Banner */}
+      <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h1 className="text-3xl font-bold mb-2">Welcome back, {user?.name}!</h1>
+          <p className="text-gray-300 max-w-xl">
+            Access your personal study library, manage your resources, and track your progress in your dedicated space.
+          </p>
+        </div>
+        <Link 
+          to="/study-space" 
+          className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/25 whitespace-nowrap"
+        >
+          <BookOpen className="w-5 h-5" />
+          Go to My Study Space
+          <ArrowRight className="w-5 h-5" />
+        </Link>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <h2 className="text-2xl font-bold text-gray-900">My Enrolled Courses</h2>
+      </div>
 
       <div className="bg-white p-6 rounded-lg border border-gray-200">
-        <h2 className="text-xl font-bold mb-4">In Progress</h2>
         {purchasedCourses.length === 0 ? (
           <div className="text-center py-10">
             <p className="text-gray-500 mb-4">You haven't enrolled in any courses yet.</p>

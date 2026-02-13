@@ -8,6 +8,7 @@ const courseRoutes = require('./routes/courseRoutes');
 const paymentRoutes = require('./routes/paymentRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const settingsRoutes = require('./routes/settingsRoutes');
+const resourceRoutes = require('./routes/resourceRoutes');
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ app.use('/api/courses', courseRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/settings', settingsRoutes);
+app.use('/api/resources', resourceRoutes);
 
 const PORT = process.env.PORT || 5001;
 

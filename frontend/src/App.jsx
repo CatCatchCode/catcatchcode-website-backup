@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { UserProvider } from './context/UserContext';
+import { FocusProvider } from './context/FocusContext';
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from './components/Layout';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -12,6 +13,7 @@ const Login = lazy(() => import('./pages/Login'));
 const Register = lazy(() => import('./pages/Register'));
 const CourseDetails = lazy(() => import('./pages/CourseDetails'));
 const Dashboard = lazy(() => import('./pages/Dashboard'));
+const MyStudySpace = lazy(() => import('./pages/MyStudySpace'));
 const CourseStudy = lazy(() => import('./pages/CourseStudy'));
 const AdminPanel = lazy(() => import('./pages/AdminPanel'));
 const AIResources = lazy(() => import('./pages/AIResources'));
@@ -27,6 +29,7 @@ function App() {
     <HelmetProvider>
         <Router>
         <UserProvider>
+          <FocusProvider>
             <Layout>
             <Suspense fallback={<div className="h-screen flex items-center justify-center"><Loader /></div>}>
                 <Routes>
@@ -53,6 +56,14 @@ function App() {
                     } 
                     />
                     <Route 
+                    path="/study-space" 
+                    element={
+                        <ProtectedRoute>
+                        <MyStudySpace />
+                        </ProtectedRoute>
+                    } 
+                    />
+                    <Route 
                     path="/learn/:id" 
                     element={
                         <ProtectedRoute>
@@ -73,6 +84,7 @@ function App() {
                 </Routes>
             </Suspense>
             </Layout>
+          </FocusProvider>
         </UserProvider>
         </Router>
     </HelmetProvider>
