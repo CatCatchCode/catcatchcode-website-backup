@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a435f0;
+  --color-secondary: #1c1d1f;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-white text-secondary font-sans;
+}
