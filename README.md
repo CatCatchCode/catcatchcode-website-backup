@@ -16,32 +16,17 @@ Stay updated with the latest resources and community updates!
 </div>
 
 ### Social Media
-<div align="left">
-  <a href="https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg">
-    <img src="https://img.shields.io/badge/YouTube-Official%20Channel-red?style=flat-square&logo=youtube&logoColor=white" alt="YouTube Official" />
-  </a>
-  <a href="https://www.youtube.com/channel/UCX8i_v1eL9VuLWG1fKwEXhw">
-    <img src="https://img.shields.io/badge/YouTube-Abhijay%20Shah-red?style=flat-square&logo=youtube&logoColor=white" alt="YouTube Team Lead" />
-  </a>
-  <a href="https://www.instagram.com/cat_catch_code/">
-    <img src="https://img.shields.io/badge/Instagram-@cat__catch__code-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://www.linkedin.com/in/catcatchcode/">
-    <img src="https://img.shields.io/badge/LinkedIn-CatCatchCode-blue?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/catcatchcode">
-    <img src="https://img.shields.io/badge/Twitter-@catcatchcode-black?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://github.com/catcatchcode">
-    <img src="https://img.shields.io/badge/GitHub-catcatchcode-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.facebook.com/catcatcatchcode">
-    <img src="https://img.shields.io/badge/Facebook-CatCatchCode-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://www.reddit.com/user/Super_Cartoonist1246/">
-    <img src="https://img.shields.io/badge/Reddit-u%2FSuper__Cartoonist1246-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Reddit" />
-  </a>
-</div>
+
+| Platform | Connect |
+|:---------|:--------|
+| <img src="https://img.shields.io/badge/YouTube-Official-red?style=flat-square&logo=youtube&logoColor=white" /> | [![CatCatchCode](https://img.shields.io/badge/CatCatchCode-Subscribe-red?style=flat-square&logo=youtube)](https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg) |
+| <img src="https://img.shields.io/badge/YouTube-Team%20Lead-red?style=flat-square&logo=youtube&logoColor=white" /> | [![Abhijay Shah](https://img.shields.io/badge/Abhijay%20Shah-Subscribe-red?style=flat-square&logo=youtube)](https://www.youtube.com/channel/UCX8i_v1eL9VuLWG1fKwEXhw) |
+| <img src="https://img.shields.io/badge/Instagram-Official-E4405F?style=flat-square&logo=instagram&logoColor=white" /> | [![@cat_catch_code](https://img.shields.io/badge/@cat__catch__code-Follow-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/cat_catch_code/) |
+| <img src="https://img.shields.io/badge/LinkedIn-Official-0077B5?style=flat-square&logo=linkedin&logoColor=white" /> | [![CatCatchCode](https://img.shields.io/badge/CatCatchCode-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/catcatchcode/) |
+| <img src="https://img.shields.io/badge/Twitter-Official-black?style=flat-square&logo=x&logoColor=white" /> | [![@catcatchcode](https://img.shields.io/badge/@catcatchcode-Follow-black?style=flat-square&logo=x)](https://x.com/catcatchcode) |
+| <img src="https://img.shields.io/badge/GitHub-Official-181717?style=flat-square&logo=github&logoColor=white" /> | [![catcatchcode](https://img.shields.io/badge/catcatchcode-Follow-181717?style=flat-square&logo=github)](https://github.com/catcatchcode) |
+| <img src="https://img.shields.io/badge/Facebook-Official-1877F2?style=flat-square&logo=facebook&logoColor=white" /> | [![CatCatchCode](https://img.shields.io/badge/CatCatchCode-Follow-1877F2?style=flat-square&logo=facebook)](https://www.facebook.com/profile.php?id=61584628988988) |
+| <img src="https://img.shields.io/badge/Reddit-Official-FF4500?style=flat-square&logo=reddit&logoColor=white" /> | [![u/Super_Cartoonist1246](https://img.shields.io/badge/u/Super__Cartoonist1246-Follow-FF4500?style=flat-square&logo=reddit)](https://www.reddit.com/user/Super_Cartoonist1246/) |
 
 ---
 
