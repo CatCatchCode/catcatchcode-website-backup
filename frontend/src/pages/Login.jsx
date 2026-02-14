@@ -10,9 +10,13 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('Attempting login with:', { email });
     const success = await login(email, password);
     if (success) {
+      console.log('Login successful');
       navigate('/');
+    } else {
+      console.error('Login failed');
     }
   };
 

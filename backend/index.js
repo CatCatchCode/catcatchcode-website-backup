@@ -16,7 +16,14 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+// Configure CORS
+const corsOptions = {
+  origin: process.env.FRONTEND_URL || '*', // Allow frontend URL or all for dev
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 app.get('/', (req, res) => {

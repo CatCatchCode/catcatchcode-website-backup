@@ -11,9 +11,13 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('Attempting registration with:', { name, email });
     const success = await register(name, email, password);
     if (success) {
+      console.log('Registration successful');
       navigate('/');
+    } else {
+      console.error('Registration failed');
     }
   };
 
