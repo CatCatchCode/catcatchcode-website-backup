@@ -40,20 +40,29 @@ const Footer = () => {
 
           {/* Social Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Follow Us</h3>
-            <div className="grid grid-cols-4 gap-4">
-              {socialLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 text-gray-500 transition-all duration-300 hover:bg-white hover:shadow-md ${link.color}`}
-                  title={link.name}
-                >
-                  {link.icon}
-                </a>
-              ))}
+            <h4 className="text-lg font-bold mb-4">Follow Us</h4>
+            <div className="flex space-x-4">
+              <a href="https://www.youtube.com/channel/UCgzmNjDq8kI3StWFrIv7QZg" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" className="w-8 h-8" />
+              </a>
+              <a href="https://www.instagram.com/cat_catch_code/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" className="w-8 h-8" />
+              </a>
+              <a href="https://www.linkedin.com/in/catcatchcode/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" className="w-8 h-8" />
+              </a>
+              <a href="https://x.com/catcatchcode" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X (Twitter)" className="w-8 h-8" />
+              </a>
+              <a href="https://github.com/catcatchcode" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" className="w-8 h-8 bg-white rounded-full" />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61584628988988" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" className="w-8 h-8" />
+              </a>
+              <a href="https://www.reddit.com/user/Super_Cartoonist1246/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <img src="https://www.redditinc.com/assets/images/site/reddit-logo.png" alt="Reddit" className="w-8 h-8" />
+              </a>
             </div>
           </div>
         </div>

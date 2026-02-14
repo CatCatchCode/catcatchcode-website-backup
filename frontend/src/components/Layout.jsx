@@ -22,17 +22,6 @@ const Layout = ({ children }) => {
       {!isFocusMode && <BottomNav />}
       
       <Toaster position="top-center" />
-
-      {/* Focus Mode Toggle Button */}
-      <button
-        onClick={toggleFocusMode}
-        className={`fixed bottom-6 right-6 z-50 p-3 rounded-full shadow-lg transition-all duration-300 ${
-          isFocusMode ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-primary hover:bg-primary/90 text-white'
-        }`}
-        title={isFocusMode ? 'Exit Focus Mode' : 'Enter Focus Mode'}
-      >
-        {isFocusMode ? <Minimize className="w-6 h-6" /> : <Maximize className="w-6 h-6" />}
-      </button>
     </div>
   );
 };
