@@ -26,7 +26,7 @@ Stay updated with the latest resources and community updates!
 | <a href="https://x.com/catcatchcode"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="40" alt="Twitter/X" /></a> | [![@catcatchcode](https://img.shields.io/badge/@catcatchcode-Follow-black?style=flat-square&logo=x)](https://x.com/catcatchcode) |
 | <a href="https://github.com/catcatchcode"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="40" alt="GitHub" /></a> | [![catcatchcode](https://img.shields.io/badge/catcatchcode-Follow-181717?style=flat-square&logo=github)](https://github.com/catcatchcode) |
 | <a href="https://www.facebook.com/profile.php?id=61584628988988"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="40" alt="Facebook" /></a> | [![CatCatchCode](https://img.shields.io/badge/CatCatchCode-Follow-1877F2?style=flat-square&logo=facebook)](https://www.facebook.com/profile.php?id=61584628988988) |
-| <a href="https://www.reddit.com/user/Super_Cartoonist1246/"><img src="https://www.redditinc.com/assets/images/site/reddit-logo.png" width="40" alt="Reddit" /></a> | [![u/Super_Cartoonist1246](https://img.shields.io/badge/u/Super__Cartoonist1246-Follow-FF4500?style=flat-square&logo=reddit)](https://www.reddit.com/user/Super_Cartoonist1246/) |
+| <a href="https://www.reddit.com/user/Super_Cartoonist1246/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Reddit_icon.svg" width="40" alt="Reddit" /></a> | [![u/Super_Cartoonist1246](https://img.shields.io/badge/u/Super__Cartoonist1246-Follow-FF4500?style=flat-square&logo=reddit)](https://www.reddit.com/user/Super_Cartoonist1246/) |
 
 ---
 
