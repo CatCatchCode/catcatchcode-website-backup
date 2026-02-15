@@ -153,6 +153,11 @@ const Home = () => {
       {/* Hero Section */}
       <div className="bg-purple-50 dark:bg-gray-900 rounded-2xl p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden border border-purple-100 dark:border-gray-800">
         <div className="flex-1 space-y-6 z-10">
+          <img 
+            src="/assets/cat.jpeg" 
+            alt="Cat" 
+            className="w-24 h-24 rounded-full object-cover mb-4 shadow-lg border-4 border-white dark:border-gray-800"
+          />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
             Study Smarter.<br />
             <span className="text-purple-600">Stay Focused.</span>
