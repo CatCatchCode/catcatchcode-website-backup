@@ -13,6 +13,7 @@ import {
 import { useUser } from '../context/UserContext';
 import Dashboard from './Dashboard';
 import ProductivityDashboard from '../components/ProductivityDashboard';
+import catImage from '../assets/cat.jpeg';
 
 const Home = () => {
   const { user } = useUser();
@@ -154,7 +155,7 @@ const Home = () => {
       <div className="bg-purple-50 dark:bg-gray-900 rounded-2xl p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden border border-purple-100 dark:border-gray-800">
         <div className="flex-1 space-y-6 z-10">
           <img 
-            src="/assets/cat.jpeg" 
+            src={catImage} 
             alt="Cat" 
             className="w-full h-auto rounded-lg mb-6 shadow-lg border-4 border-white dark:border-gray-800"
           />
